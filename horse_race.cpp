@@ -8,7 +8,7 @@ const int number_of_horses = 5;
 const int length_of_track = 15;
 
 void printTrack(const vector<int>& positions) {
-    system("clear"); // Clears the console screen
+    system("clear");
     for (int outer_loop = 0; outer_loop < number_of_horses; outer_loop++) {
         for (int inner_loop = 0; inner_loop < length_of_track; inner_loop++) {
             if (positions[outer_loop] == inner_loop)
