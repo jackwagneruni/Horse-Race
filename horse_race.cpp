@@ -15,10 +15,10 @@ void printTrack(const vector<int>& positions) {
                 cout << outer_loop;
             else
                 cout << ".";
-        }
+        } // end of inner for loop
         cout << endl;
-    }
-}
+    } // end of outer for loop
+} // end of printTrack function
 
 int main() {
     srand(time(0));
